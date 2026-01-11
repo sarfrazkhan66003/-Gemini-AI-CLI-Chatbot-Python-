@@ -3,7 +3,7 @@ import google.generativeai as genai
 print("🔥 THIS FILE IS RUNNING 🔥")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAzwIFihHDN7KiphOVWoxoQ3S_RZg0afnc")
+genai.configure(api_key="api_ley")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -22,3 +22,4 @@ def chat_with_gemini():
 
 if __name__ == "__main__":
     chat_with_gemini()
+
